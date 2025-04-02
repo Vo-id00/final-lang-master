@@ -10,7 +10,7 @@ export default function ChatPage() {
     async function getAIResponse() {
         const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models";
         const MODEL_NAME = "gemini-2.0-flash";
-        const apiKey = "AIzaSyDzIM1iwTEgbcTWXzEO224RCe_W-J3hxkk"; 
+        const apiKey = "XXXxxxxxxxxxxxxxxxxxxxxxxxxxx"; 
         
         const response = await fetch(
             `${GEMINI_API_URL}/${MODEL_NAME}:generateContent?key=${apiKey}`,
